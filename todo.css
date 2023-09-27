@@ -1,0 +1,130 @@
+body {
+    background-image: url("D:\reacttut\6938839_3409297.jpg");
+    background-color: #0bddd2;
+    /* animation-name: demo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-fill-mode: both; */
+    /* background-image: url("back.jpg"); */
+}
+/* @keyframes demo {
+    0% {
+        background-color: #4eb3ca;
+    }
+    50% {
+        background-color: #acacd7;
+    }
+    100% {
+        background-color: #f0a8a8;
+    }
+} */
+
+h1 {
+    font-size: 36px;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(250, 249, 249);
+    color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid red
+}
+
+input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 249, 249);
+    color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit] {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    /* cursor: pointer; */
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 22px;
+    border: 1px solid black
+}
+
+button[type=submit] {
+    background-color: rgb(253, 252, 252);
+    border: none;
+    color: rgb(6, 5, 5);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    /* cursor: pointer; */
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 22px;
+    font-size: "34px";
+    background-color: "grey"
+}
+
+select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(153, 246, 186);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: crimson;
+    text-decoration: none;
+}
+
+.example {
+    background: blue;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.example:hover {
+    opacity: 0.3;
+}
+
+.container {
+    /* background-color: antiquewhite; */
+    background-color: blueviolet;
+    border-style: hidden;
+    border-radius: 15px;
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0 8px 6px -6px rgb(156, 205, 242);
+}
+
+@media screen and (max-width:900px) {
+    .main-contianer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
